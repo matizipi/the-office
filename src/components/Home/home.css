@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text{
+    height: 100%;
+    width: 50vw;
+    
+}
+
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    letter-spacing: 10px;
+    color: var(--title-color);
+  }
+  
+.sinopsis{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 30px;
+    color: var(--text-color);
+    line-height: 1.5em;
+}
+
+.resume{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 30px;
+    color: var(--text-color);
+    line-height: 1.5em;
+}
+
+.poster{
+    height: 500px;
+    width: 350px;
+}

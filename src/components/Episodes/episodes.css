@@ -1,0 +1,54 @@
+.Loading-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+svg{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.refresh-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.refresh-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .refresh-button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.title{
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  letter-spacing: 8px;
+}
+
+.content, span{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 30px;
+}
